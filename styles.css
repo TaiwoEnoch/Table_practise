@@ -11,14 +11,16 @@
   font-weight: bold;
   font-family: monospace;
 }
-#customers td, #customers th {
-  border: 2px solid #3434;
-  padding: 8px;
-}
 
 td {
- font-size: 1rem;
+  font-size: 1rem;
+ 
+}
 
+#customers td,
+#customers th {
+  border: 2px solid #3434;
+  padding: 8px;
 }
 
 #customers th {
@@ -31,7 +33,7 @@ td {
   font-size: 1.5rem;
 }
 
-#customers tr:nth-child(odd){
+#customers tr:nth-child(odd) {
   background-color: #808080;
 }
 
