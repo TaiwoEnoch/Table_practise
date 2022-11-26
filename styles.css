@@ -1,0 +1,44 @@
+#customers {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bold;
+  font-family: monospace;
+  background-color: #000;
+  padding: 8px 8px;
+}
+
+td {
+  font-size: 1rem;
+}
+
+#customers td,
+#customers th {
+  border: 2px solid #3434;
+  padding: 8px;
+}
+
+#customers th {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000;
+  color: #ff8c00;
+  font-size: 1.5rem;
+}
+
+#customers tr:nth-child(odd) {
+  background-color: #808080;
+}
+
+#customers tr:hover {
+  background-color: #ff8c00;
+  color: #fff;
+}
